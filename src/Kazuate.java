@@ -25,6 +25,10 @@ public class Kazuate {
 		if(nu==1000){
 			break;
 		}
+		if(nu>100){
+			System.out.println("100以下で入力してください");
+			continue;
+		}
 		if(nu==ran){
 			System.out.println("正解");
 			end= 1;
